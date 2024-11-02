@@ -7,7 +7,8 @@ import Result from "./Result";
 import { ISnippet, IEditorTabs, IResultTabs } from "./types";
 export type { ISnippet, IEditorTabs, IResultTabs };
 import { ThemeProvider, useTheme } from "./utils/ThemeProvider";
-import { ColorMode } from "./utils/theme";
+import { theme as PlaygroundTheme, ColorMode } from "./utils/theme";
+export type { ColorMode, PlaygroundTheme };
 import media from "./utils/media";
 import Draggable from "./Draggable";
 
