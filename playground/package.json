@@ -24,7 +24,8 @@
       "browser": "./dist/playground.module.js",
       "umd": "./dist/playground.umd.js",
       "import": "./dist/playground.module.js",
-      "require": "./dist/playground.js"
+      "require": "./dist/playground.js",
+      "types": "./dist/Playground.d.ts"
     }
   },
   "keywords": [
@@ -62,14 +63,14 @@
     "@types/lodash": "^4.14.175",
     "@types/lodash-es": "^4.17.5",
     "@types/lodash.merge": "^4.6.6",
-    "@types/react": "^18.3.12",
-    "@types/react-dom": "^18.3.1",
+    "@types/react": "^17.0.29",
+    "@types/react-dom": "^17.0.9",
     "@types/react-inspector": "^4.0.2",
     "jest": "^27.2.5",
     "microbundle": "^0.14.0",
     "np": "*",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^17.0.2"
   },
   "jest": {
     "rootDir": "src",
