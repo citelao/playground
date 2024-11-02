@@ -5,6 +5,7 @@ import { styled, setup, DefaultTheme } from "goober";
 import Editor from "./Editor";
 import Result from "./Result";
 import { ISnippet, IEditorTabs, IResultTabs } from "./types";
+export type { ISnippet, IEditorTabs, IResultTabs };
 import { ThemeProvider, useTheme } from "./utils/ThemeProvider";
 import { ColorMode } from "./utils/theme";
 import media from "./utils/media";
@@ -22,7 +23,7 @@ const StyledDraggable = styled(Draggable)`
   }
 `;
 
-interface IProps {
+export interface IProps {
   initialSnippet: ISnippet;
   defaultEditorTab?: IEditorTabs;
   defaultResultTab?: IResultTabs;
